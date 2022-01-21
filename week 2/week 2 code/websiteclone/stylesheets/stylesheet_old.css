@@ -1,0 +1,106 @@
+/* main css file */
+
+/* global */
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+div{
+
+    /* display: flex;
+    flex-wrap: wrap; */
+    border: solid rgb(255, 255, 255) 1px;
+}
+
+body{
+    background: #121212;
+}
+
+/* page container */
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 99vh;    
+    width: 99vw;
+    align-content: stretch;
+}
+
+/* nav */
+.nav-div {
+    height: 10%;
+
+    width: 100%;
+}
+
+
+/* image div */
+
+.img-div{
+    min-height: 50%;
+    width: 100%;
+    /* justify-content: center; */
+    
+}
+
+
+
+
+/* search div */
+.search-div{
+    min-height: 10%;
+    width: 100%;
+}
+
+/* button div */
+.button-div{
+    min-height: 5%;
+    width: 100%;
+}
+
+/* footer div */
+.footer-div{
+    
+    max-height: 60%;
+    width: 100%;
+}
+
+
+
+
+/* ################################################################ */
+/* MEADI */
+
+@media (min-width: 450px) {
+    .container-main {
+        width: 420px;
+    }
+  }
+
+@media (min-width: 500px) {
+    .container-main {
+        width: 500px;
+    }
+  }
+  
+
+@media (min-width: 768px) {
+    .container-main {
+        width: 750px;
+    }
+  }
+  
+@media (min-width: 992px) {
+    .container-main {
+        width: 970px;
+    }
+  }
+  
+@media (min-width: 1200px) {
+    .container-main {
+      width: 100%;
+    }
+  }
+

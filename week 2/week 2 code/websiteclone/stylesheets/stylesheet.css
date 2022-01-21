@@ -1,0 +1,398 @@
+/* ################################################################ */
+/* ################################################################ */
+/*                          main css file                           */
+/* ################################################################ */
+/* ################################################################ */
+/* global */
+
+* {box-sizing: border-box;}
+
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    /* text-align: center; */
+}
+
+button{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+/* div{
+
+
+    border: solid rgb(255, 255, 255) 1px;
+} */
+
+body{
+    background: rgb(32, 33, 36);
+    /* background-image: url("/images/googlebg.png"); */
+}
+/* ################################################################ */
+
+/* page container */
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99vw;
+    align-content: stretch;
+}
+/* ################################################################ */
+
+/* nav */
+.nav-div {
+    display: flex;
+    flex-direction: row;
+    
+    height: 6vh;
+    width: 100%;
+}
+
+.nav-child1{
+    display: flex;
+    border: rgb(255, 0, 0) solid 2 px;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.nav-child2{
+    display: flex;
+    border: rgb(255, 0, 0) solid 2 px;
+    width: 50%;
+    height: 100%;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    padding-right: 11px;
+}
+
+#nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 7vw;
+    /* justify-content: center; */
+    align-content: center;
+}
+
+.apps-button-div{
+    width: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+#apps-button{
+    /* padding-right: 20px; */
+    color: white;
+}
+
+/* .apps-button.hover{
+    filter: brightness(150%);
+} */
+
+.nav-button-div{
+    width: 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#nav-button{
+   
+    background-color: #8ab4f8;
+    border-radius: 5px;
+    border: none;
+    height: 42px;
+    width: 115px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ################################################################ */
+/* image div */
+
+.img-div{
+    /* top: 0; */
+   display: flex;
+    height: 28vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-div img {
+    height: 100%;
+    /* border: chartreuse solid 2px; */
+}
+
+/* img{
+    display: block;
+    padding-top: 5px;
+    width: 62vh;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* ################################################################ */
+
+/* search div */
+.search-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 9vh;
+    width: 100%;
+}
+::placeholder{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    color: white;
+    
+    
+
+}
+#search-bar{
+    outline: none;
+    border-radius: 30px;
+    background-color: rgb(32, 33, 36);
+    height: 6vh;
+    width: 37vw;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: large;
+    color: white;
+    caret-color: white;
+
+}
+/* ################################################################ */
+
+/* button div */
+.button-div{
+    display: flex;
+    flex-direction: row;
+    min-height: 9vh;
+    width: 100%;
+}
+
+.button-child-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    padding-right: 18px;
+    width: 50vw;
+}
+
+#search-button{
+    background-color: rgb(48, 49, 52);
+    color: white;
+    width: 8vw;
+    height: 2vw;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-child-2{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-content: center;
+    width: 50vw;
+}
+
+#lucky-button{
+    background-color: rgb(48, 49, 52);
+    color: white;
+    width: 8vw;
+    height: 2vw;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* ################################################################ */
+
+/* the void */
+.the-void{
+    height: 34vh;
+    width: 100%;
+}
+/* ################################################################ */
+
+/* footer-first-div */
+.footer-first-div{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    background-color: rgb(23, 23, 23);
+    padding-left: 1vw;
+    height: 6vh;
+    width: 100%;
+}
+/* ################################################################ */
+
+/* footer div */
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    border-top: rgba(211, 211, 211, 0.116) solid 1px;
+    background-color: rgb(23, 23, 23);
+    height: 6vh;
+    width: 100%;
+}
+/* ########### */
+
+#footer-child-1{
+    display: flex;
+    flex-direction: row;
+    width: 33.33%;
+}
+    #footer-child-1a{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+        padding-bottom: 1vh;
+        width: 21%;
+    }
+
+    #footer-child-1b{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+        padding-bottom: 1vh;
+        width: 18%;
+    }
+
+
+    #footer-child-1c{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+        padding-bottom: 1vh;
+        width: 30%;
+    }
+/* ########## */
+
+#footer-child-2{
+    display: flex;
+    flex-direction: row;
+    width: 33.33%;
+}
+    .footer-child-2a{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-content: flex-end;
+        /* padding-bottom: 1vh; */
+        width: 40%;
+    }
+
+    #leaf-img{
+        width: 8%;
+        transform: rotate(30deg);
+    }
+    .footer-child-2b{
+        width: 30%;
+    }
+    /* ########### */
+
+#footer-child-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 33.33%;
+}
+    .footer-child-3a{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+        padding-bottom: 1vh;
+        width: 5vw;
+    }
+    .footer-child-3b{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+        padding-bottom: 1vh;
+        width: 4vw;
+    }
+    .footer-child-3c{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+        padding-bottom: 1vh;
+        width: 6vw;
+    }
+/* ################################################################ */
+
+/* ################################################################ */
+/* ################################################################ */
+/* ################################################################ */
+/* MEADI */
+
+@media (min-width: 450px) {
+    .container-main {
+        width: 420px;
+    }
+    img{
+        max-height: 80%;
+    }
+  }
+
+@media (min-width: 500px) {
+    .container-main {
+        width: 500px;
+    }
+  }
+  
+
+@media (min-width: 768px) {
+    .container-main {
+        width: 750px;
+    }
+  }
+  
+@media (min-width: 992px) {
+    .container-main {
+        width: 970px;
+    }
+  }
+  
+@media (min-width: 1200px) {
+    .container-main {
+      width: 100%;
+    }
+    .img-div img{
+        max-height: 90%;
+    }
+  }
+
+/* ################################################################ */
+/* ################################################################ */
+/* ################################################################ */

@@ -1,0 +1,29 @@
+
+.img-div{
+
+    flex-wrap: wrap;
+    box-shadow: 1px 2px 2px 2px #888888;
+    border-radius: 5px;
+    border: solid 1px #888888;
+    min-height: 500px;
+    width: 30%;
+
+}
+
+/* .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+} */
+
+/* .info-div{
+    min-height: 500px;
+    width: 30%;
+} */
+
+
+/* .navbar {
+    justify-content: center;
+    
+} */
