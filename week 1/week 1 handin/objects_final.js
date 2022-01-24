@@ -79,29 +79,56 @@
 // person.gender = "male";
 
 // console.log(person);
+// #################################################################################################### \\
+// #################################################################################################### \\
+// #################################################################################################### \\
+// #################################################################################################### \\
 
-//      activity 1      \\
+
+// ############################ \\
+//          Activity 1          \\
+// ############################ \\
+
+// Let’s edit our person object to include…
+// A function called sayHi and when it’s called, it should 
+// return “Hello, my name is ${this.name}”
+
+const person = {
+    firstName: "Tom",
+    lastName: "Hankinson",
+    dOb: [27, 12, 1985],
+    age: 36,
+    sayHi() {
+        console.log(`Hello my name is ${this.firstName}`);
+    }
+
+}
+
+console.log(person.sayHi());
+
+
+//      activity 2      \\
 
 // Create an object called pet with key values of:
 // name, typeOfPet, age, colour
 // And methods called eat and drink. They should return 
 // a string saying [Your pet name] is eating/drinking.
 
-const pet = {
-    name: "max",
-    typeOfPet: "dog",
-    age: "4",
-    colour: "brown",
-    eat: (eating) =>{
-        console.log(`${this.name} is eating ${eating}`);
-    },
-    drink: (drinking) =>{
-        console.log(`${this.name} is drinking ${drinking}`);
-    }
-}
+// const pet = {
+//     name: "max",
+//     typeOfPet: "dog",
+//     age: "4",
+//     colour: "brown",
+//     eat: (eating) =>{
+//         console.log(`${this.name} is eating ${eating}`);
+//     },
+//     drink: (drinking) =>{
+//         console.log(`${this.name} is drinking ${drinking}`);
+//     }
+// }
 
-pet.eat("dog food");
-pet.drink("water");
+// pet.eat("dog food");
+// pet.drink("water");
 
 const petFunction = {
     name: "Max",
@@ -120,4 +147,6 @@ petFunction.eat("slipper");
 petFunction.drink("from the toilet");
 
 
-//      activity 2      \\
+//      activity 3    \\
+
+
