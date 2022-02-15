@@ -147,6 +147,3 @@ petFunction.eat("slipper");
 petFunction.drink("from the toilet");
 
 
-//      activity 3    \\
-
-

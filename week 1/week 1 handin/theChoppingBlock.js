@@ -297,7 +297,7 @@
 //     }   
 // }  
 
-// console.log(coffeShop.theDrinks[0][0], coffeShop.theDrinks[1][0])
+// console.log(coffeShop.drinksOrderd("tea"))
 
 
 // console.log(coffeShop.drinksOrderd(theDrinks[0][0]))
@@ -348,6 +348,49 @@
 
 
 // let theDrinks = [["coffee", "tea", "Diet Pepsi", "Pepsi", "Coke", "Diet Coke"], [3, 2, 3, 3, 4, 4]];
-// if (whatdrink = theDrinks[0][0]){
-//     console.log(`your ${whatdrink} is`)
+
+// function drinksOrderd(whatDrink) {
+// if (whatDrink = theDrinks[0][0]){
+//     console.log(`your ${whatDrink}`)
+// } else if (whatDrink = theDrinks[0][1]){
+//     console.log(`your ${whatDrink}`)
+// } else if (whatDrink = theDrinks[0][2]){
+//     console.log(`your ${whatDrink}`)
+// } else if (whatDrink = theDrinks[0][3]){
+//     console.log(`your ${whatDrink}`)
+// } else if (whatDrink = theDrinks[0][4]){
+//     console.log(`your ${whatDrink}`)
+// } else if (whatDrink = theDrinks[0][5]){
+//     console.log(`your ${whatDrink}`)
+// } else
+//     console.log("no drink orderd");
+                        
+
+
+
 // }
+
+// drinksOrderd("Coke")
+
+
+// drinksInput = theDrinks[0][2]
+// switch(drinksInput){
+//         case drinksInput = theDrinks[0][0]:
+//             console.log(`your ${drinksInput} is £${theDrinks[1][0]}`);
+//             break;
+//         case drinksInput = theDrinks[0][1]:
+//             console.log(`your ${drinksInput} is £${theDrinks[1][1]}`);
+//             break;
+//         case drinksInput = theDrinks[0][2]:
+//             console.log(`your ${drinksInput} is £${theDrinks[1][2]}`);
+//             break;
+//         case drinksInput = theDrinks[0][3]:
+//             console.log(`your ${drinksInput} is £${theDrinks[1][3]}`);
+//             break;
+//         case drinksInput = theDrinks[0][2]:
+//             console.log(`your ${drinksInput} is £${theDrinks[1][4]}`);
+//             break;
+//         case drinksInput = theDrinks[0][3]:
+//             console.log(`your ${drinksInput} is £${theDrinks[1][5]}`);
+//             break;
+//     }

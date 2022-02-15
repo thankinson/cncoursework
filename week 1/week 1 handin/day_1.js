@@ -49,43 +49,43 @@ const winConditions = [
 ];
 
 
-checkResult()
 
 
-//    const checkResult = () => {
-//     console.log(theGrid);
-//     let i = "x" || "o";
-//     switch (true){
-//         case (gameXo[0][0] && gameXo[0][1] === gameXo[0][2] == i): // h line 1
-//             console.log(`${i} WINS`);
-//             break;
-//         case (gameXo[1][0] && gameXo[1][1] && gameXo[1][2] == i): // h line 2
-//             console.log(`${i} WINS`);
-//             break;
-//         case (gameXo[2][0] && gameXo[2][1] === gameXo[2][2] == i): // h line 3
-//             console.log(`${i} WINS`);
-//             break;
-//         case (gameXo[0][0] && gameXo[1][0] && gameXo[2][0] == i): // v line 1
-//             console.log(`${i} WINS`);
-//             break;
-//         case (gameXo[0][1] && gameXo[1][1] && gameXo[2][1] == i): // v line 2
-//             console.log(`${i} WINS`);
-//             break;
-//         case (gameXo[0][2] && gameXo[1][2] && gameXo[2][2] == i): // v line 3
-//             console.log(`${i} WINS`);
-//             break;
-//         case (gameXo[0][0] && gameXo[1][1] && gameXo[2][2] == i): // d line 1
-//             console.log(`${i} WINS`);
-//             break;
-//         case (gameXo[2][0] && gameXo[1][1] && gameXo[0][3] == i): // d line 2
-//             console.log(`${i} WINS`);
-//             break;
-//         default:
-//             console.log("No winner")
-//     }
-// };
 
-// checkResult();
+   const checkResult = () => {
+    console.log(theGrid);
+    let i = "x" || "o";
+    switch (true){
+        case (gameXo[0][0] && gameXo[0][1] === gameXo[0][2] == i): // h line 1
+            console.log(`${i} WINS`);
+            break;
+        case (gameXo[1][0] && gameXo[1][1] && gameXo[1][2] == i): // h line 2
+            console.log(`${i} WINS`);
+            break;
+        case (gameXo[2][0] && gameXo[2][1] === gameXo[2][2] == i): // h line 3
+            console.log(`${i} WINS`);
+            break;
+        case (gameXo[0][0] && gameXo[1][0] && gameXo[2][0] == i): // v line 1
+            console.log(`${i} WINS`);
+            break;
+        case (gameXo[0][1] && gameXo[1][1] && gameXo[2][1] == i): // v line 2
+            console.log(`${i} WINS`);
+            break;
+        case (gameXo[0][2] && gameXo[1][2] && gameXo[2][2] == i): // v line 3
+            console.log(`${i} WINS`);
+            break;
+        case (gameXo[0][0] && gameXo[1][1] && gameXo[2][2] == i): // d line 1
+            console.log(`${i} WINS`);
+            break;
+        case (gameXo[2][0] && gameXo[1][1] && gameXo[0][3] == i): // d line 2
+            console.log(`${i} WINS`);
+            break;
+        default:
+            console.log("No winner")
+    }
+};
+
+checkResult();
 
 
 // const checkResult = () => {
